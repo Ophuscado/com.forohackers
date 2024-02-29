@@ -5,7 +5,7 @@
 
 # Report Abuse
 
-If you have come across any content hosted by us that you believe is suspicious or potentially in violation of any laws or the terms of service, we encourage you to report it. Your assistance helps maintain a safe environment for everyone.
+If you have come across any content hosted in our domains that you believe is suspicious or in potential violation of any laws or the terms of service, we encourage you to report it. Your assistance helps maintain a safe environment for everyone.
 
 ### How to Report
 
@@ -13,7 +13,7 @@ To report abuse, please follow these steps:
 
 1. **Document the issue:** Collect any details related to the suspicious content, including URLs, timestamps, and descriptions of the issue.
 
-2. **Contact Us:** Email [abuse@forohackers.com](mailto:abuse@forohackers.com) with the subject line "Abuse Report." Please provide as much contextual information as possible.
+2. **Contact Us:** Email [support@forohackers.com](mailto:support@forohackers.com) with the subject line "Abuse Report." Please provide as much contextual information as possible.
 
 3. **Confidentiality:** Your report will be handled with the utmost confidentiality. If the case requires a follow-up, we will contact you afterward.
 
