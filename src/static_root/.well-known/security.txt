@@ -1,0 +1,6 @@
+Canonical: https://forohackers.com/.well-known/security.txt
+Contact: mailto:support@forohackers.com
+Expires: Sat, 31 Dec 2029 23:59 +0000
+Encryption: https://forohackers.com/.well-known/security.pub
+Preferred-Languages: en, es, zh
+Policy: https://forohackers.com/security
