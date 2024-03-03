@@ -55,15 +55,18 @@ def main():
 
         # Prepare template data
         with open(file_path, "r") as f:
+            file_content = f.read()
             jinja2_html = templates.render(
                 content=markdown.markdown(
-                    f.read(),
+                    file_content,
                     extensions=["tables", "fenced_code", "codehilite", "toc"],
                 ),
-                **{key: value for key, value in re.findall(r"<!--\s*(.*?):\s*(.*?)\s*-->", f.read())},
+                **{key: value for key, value in re.findall(r"<!--\s*(.*?):\s*(.*?)\s*-->", file_content)},
                 **env_vars,
                 NAVIGATION=NAVIGATION,
                 slug=slug,
+                created=os.path.getctime(file_path),
+                modified=os.path.getmtime(file_path),
             )
 
         # Write static page to disk
