@@ -1,6 +1,5 @@
-.DS_Store
-__pyenv__/
 __pycache__/
-.gitignored/
-dist/
+__pyenv__/
+.DS_Store
 .wrangler/
+dist/
